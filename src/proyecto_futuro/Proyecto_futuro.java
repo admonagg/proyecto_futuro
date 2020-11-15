@@ -16,6 +16,7 @@ public class Proyecto_futuro {
      */
     public static void main(String[] args) {
 
+        // Nombre, apellidos, modulos y horas de estudio del estudiante.
         int modulos;
         int hEstudio;
 
@@ -26,7 +27,7 @@ public class Proyecto_futuro {
         String hEstudio1 = String.valueOf(hEstudio);
 
         String veredicto = Proyecto_futuro.veredicto(modulos1, hEstudio1);
-
+        
         System.out.println("Estudiante " + args[0] + " " + args[1] + " " + args[2] + " " + ": " + veredicto);
 
     }
